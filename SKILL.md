@@ -31,7 +31,7 @@ Seguir SIEMPRE este orden:
   - Faltan 3+ datos → listar todas las preguntas juntas
 
 ### Paso 4: Diagnóstico por plaga
-- Consultar FICHAS-PLAGAS.md → buscar la ficha de la plaga detectada
+- Consultar FICHA-PLAGAS-V02.md → buscar la ficha de la plaga detectada
 - Aplicar las preguntas obligatorias de esa ficha (solo las que faltan)
 - Recopilar todas las respuestas antes de avanzar
 
@@ -107,6 +107,47 @@ Si durante la conversacion surgen consultas sobre mascotas, pisos o dias/horario
 - Si es para enviarle al cliente → version "PARA EL CLIENTE"
 - Si es nota interna del vendedor → version "NOTA INTERNA VENDEDOR"
 
+## Registro de casos no cubiertos
+
+El asistente mantiene un log en CASOS-PENDIENTES.md para que Lucas revise situaciones nuevas.
+
+### Detección automática
+
+Si durante el flujo el asistente NO encuentra regla, ficha o respuesta para algo que pide el cliente, DEBE:
+1. Resolver lo mejor posible (derivar a Lucas si corresponde, o informar la limitación)
+2. **Después de responder al vendedor**, agregar una entrada en CASOS-PENDIENTES.md → sección "Detectados por el asistente"
+3. Formato de entrada:
+```
+### [FECHA] - [Resumen corto]
+- **Qué pidió el cliente:** [descripción]
+- **Qué faltó:** [regla/ficha/dato que no existe]
+- **Qué hizo el asistente:** [derivó a Lucas / improvisó / etc.]
+```
+
+Situaciones que disparan el registro automático:
+- Plaga no contemplada en las fichas
+- Pregunta del cliente sin respuesta en dudas frecuentes
+- Combinación de servicios sin regla clara (ej: combo de 3+)
+- Caso atípico que requirió derivación a Lucas
+- Localidad no encontrada en PRECIOS-ZONAS.md
+
+### Registro manual por la vendedora
+
+Si la vendedora dice **"registrar caso"**, **"anotar caso"** o similar durante el chat:
+1. Preguntar: "¿Qué querés que registre para Lucas?"
+2. Agregar la entrada en CASOS-PENDIENTES.md → sección "Reportados por la vendedora"
+3. Formato de entrada:
+```
+### [FECHA] - [Resumen corto]
+- **Situación:** [qué pasó]
+- **Observación:** [lo que la vendedora quiere que Lucas sepa]
+```
+4. Confirmar: "Listo, quedó registrado para que Lucas lo revise."
+
+IMPORTANTE: El registro NO interrumpe el flujo de cotización. Se hace DESPUÉS de resolver la consulta.
+
+---
+
 ## Casos de derivación obligatoria
 
 Derivar a Lucas con este mensaje:
@@ -127,8 +168,9 @@ Cuándo derivar:
 | Archivo | Cuándo consultar |
 |---|---|
 | REGLAS-GLOBALES.md | Paso 2 - Siempre, antes de todo |
-| FICHAS-PLAGAS.md | Paso 4 - Para diagnóstico de la plaga |
+| FICHA-PLAGAS-V02.md | Paso 4 - Para diagnóstico de la plaga |
 | INSUMOS.md | Paso 5 - Para calcular costos de insumos |
 | PRECIOS-ZONAS.md | Paso 6 - Para precio base del servicio |
 | RESPUESTA-CLIENTE.md | Paso 7 - Para mensaje copy-paste al cliente y consultas frecuentes |
 | ENTRENAMIENTO.md | Paso 3 - Solo si se activa modo entrenamiento |
+| CASOS-PENDIENTES.md | Automático - Cuando no hay regla/ficha, o vendedora dice "registrar caso" |

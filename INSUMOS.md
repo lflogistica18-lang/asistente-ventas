@@ -41,6 +41,12 @@ Las cebaderas normales NO se venden por separado.
   Cebaderas = m² ÷ 15 (redondear hacia arriba)
   Costo = $0 (no se cobran por separado)
 
+### Plagas en Productos Almacenados - Domicilio
+  Aerosoles = cantidad de ambientes afectados
+  Costo = aerosoles × $7.000
+  Ejemplo: 2 ambientes afectados → 2 × $7.000 = $14.000
+  Nota: Comercio/industria → DERIVAR A LUCAS
+
 ### Cucarachas / Hormigas interior / Arañas / Desinfección
   Sin insumos adicionales (equipamiento técnico regular)
   Costo insumos = $0

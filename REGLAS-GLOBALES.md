@@ -62,6 +62,37 @@ Cotización = precio de Rastreros para el rango de m² + aumento por clasificaci
 - **Comercios/empresas** → cotizar según m² reales
 - **>5000m²** → DERIVAR a Lucas (no cotizar)
 
+### Combo de 2 servicios
+
+Cuando el cliente necesita control de **dos plagas distintas** en la misma visita:
+
+- **Servicio 1** (el de mayor valor) → precio completo
+- **Servicio 2** → +20% del valor que tendría ese servicio por separado
+
+**EXCEPCIÓN:** Pulgas, chinches y garrapatas NO entran en combo.
+Requieren insumos extra (aerosoles) y se cotizan siempre por separado a precio completo.
+
+Ejemplo:
+```
+Desinsectación (rastreros) CABA hasta 1000m²:  $48.000 (completo)
+Desratización (roedores) CABA hasta 1000m²:    $48.000 × 20% = $9.600
+                                                ─────────────────
+TOTAL COMBO:                                    $57.600
+```
+
+Si ambos servicios tienen el mismo precio, cualquiera puede ser el "servicio 1".
+
+### Combo de 3+ servicios (regla provisional)
+
+Cuando el cliente necesita **tres o más servicios**, NO hay fórmula fija todavía.
+
+Acción:
+1. Mostrar el **precio individual** de cada servicio por separado
+2. Mostrar el **precio combo de a pares** (usando la regla de 2 servicios)
+3. **El vendedor decide el monto final** según su criterio
+
+Esta regla es provisional hasta que Lucas defina la fórmula definitiva.
+
 ## Reglas para comercios/empresas (siempre preguntar)
 
 - ¿Qué rubro?
@@ -85,6 +116,12 @@ NO hacemos (informar y ofrecer ayuda con otro servicio):
 - Control de roedores en domicilios particulares
 - Plagas de la madera (termitas, bicho taladro, etc.)
 - Servicios los domingos
+
+Derivar a Lucas (cotización personalizada):
+- Espacios >5000m²
+- Chinches en hoteles/hostels
+- Plagas en productos almacenados en comercios o industrias
+- Cualquier caso atípico o que genere duda
 
 ## Horarios y recargo por franja horaria
 
