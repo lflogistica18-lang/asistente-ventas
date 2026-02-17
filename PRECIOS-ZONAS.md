@@ -10,11 +10,11 @@ Precio = Precio base (servicio + rango m²) × (1 + % aumento por clasificación
 
 | Servicio | Hasta 1000m² | 1000 a 3000m² | 3000 a 5000m² |
 |---|---|---|---|
-| Rastreros | $48.000 | $60.000 | $75.000 |
-| Roedores | $48.000 | $60.000 | $75.000 |
-| Voladores Interior | $60.000 | $75.000 | $93.750 |
-| Voladores Exterior | $75.000 | $93.750 | $117.188 |
-| Desinfección | $60.000 | $75.000 | $93.750 |
+| Rastreros | $50.000 | $62.500 | $78.125 |
+| Roedores | $62.500 | $78.125 | $97.656 |
+| Voladores Interior | $78.125 | $97.656 | $122.070 |
+| Voladores Exterior | $97.656 | $122.070 | $152.588 |
+| Desinfección | $78.125 | $97.656 | $122.070 |
 
 Cada rango de m² superior es un 25% más que el anterior.
 
@@ -26,13 +26,13 @@ Cada rango de m² superior es un 25% más que el anterior.
 
 ## Aumento por clasificación (lejanía)
 
-| Clasificación | Distancia desde punto cero | Aumento | Ejemplo base $48.000 |
+| Clasificación | Distancia desde punto cero | Aumento | Ejemplo base $50.000 |
 |---|---|---|---|
-| Muy Cercano | Polígono CABA | 0% | $48.000 |
-| Cercano | Hasta 15km | +10% | $52.800 |
-| Media Distancia | 15km a 20km | +25% | $60.000 |
-| Lejano | 20km a 30km | +35% | $64.800 |
-| Muy Lejano | 30km a 69km | +50% | $72.000 |
+| Muy Cercano | Polígono CABA | 0% | $50.000 |
+| Cercano | Hasta 15km | +10% | $55.000 |
+| Media Distancia | 15km a 20km | +25% | $62.500 |
+| Lejano | 20km a 30km | +35% | $67.500 |
+| Muy Lejano | 30km a 69km | +50% | $75.000 |
 
 Más de 5000m² → DERIVAR A LUCAS
 
