@@ -46,16 +46,26 @@ Seguir SIEMPRE este orden:
 - Si la localidad no está en la tabla → pedir al vendedor que consulte manualmente
 
 ### Paso 7: Cotización final (doble salida)
-- Generar DOS salidas separadas:
-  1. **COTIZACIÓN INTERNA (vendedor):** formato completo con alertas tecnicas, equipos, restricciones (ver formato abajo)
-  2. **MENSAJE PARA EL CLIENTE (copy-paste):** consultar RESPUESTA-CLIENTE.md para template y tono
+- Generar DOS salidas separadas, en este orden:
+  1. **MENSAJE PARA EL CLIENTE (copy-paste):** consultar RESPUESTA-CLIENTE.md para template y tono. Va PRIMERO para que el vendedor lo copie fácil
+  2. **COTIZACIÓN INTERNA (vendedor):** formato completo con alertas tecnicas, equipos, restricciones (ver formato abajo)
 - IMPORTANTE: No confundir consideraciones del vendedor con las del cliente
   - Vendedor: alertas de piretroides, nombres de equipos, restricciones operativas
   - Cliente: tono amable, sin tecnicismos, mencionar instructivo PDF
 - Precio base (zona) + insumos = TOTAL
 - Si el cliente pregunta por mascotas, pisos, dias/horarios → consultar la seccion "Consultas frecuentes" de RESPUESTA-CLIENTE.md para dar la version correcta segun destinatario
 
-## Formato de salida
+## Formato de salida 1: Mensaje para el cliente (copy-paste)
+
+Generar PRIMERO el mensaje copy-paste para el cliente usando el template de RESPUESTA-CLIENTE.md.
+Las consideraciones en este mensaje deben ser SOLO las aptas para el cliente (sin tecnicismos internos).
+Este mensaje va primero para que el vendedor lo copie fácilmente.
+
+Si durante la conversacion surgen consultas sobre mascotas, pisos o dias/horarios, usar las respuestas predefinidas de la seccion "Consultas frecuentes" de RESPUESTA-CLIENTE.md, eligiendo siempre la version correcta:
+- Si es para enviarle al cliente → version "PARA EL CLIENTE"
+- Si es nota interna del vendedor → version "NOTA INTERNA VENDEDOR"
+
+## Formato de salida 2: Cotización interna (vendedor)
 
 ```
 ================================================================
@@ -97,15 +107,6 @@ ACCIÓN SIGUIENTE:
   > Si acepta, adjuntar instructivo PDF correspondiente
 ================================================================
 ```
-
-### Formato de salida 2: Mensaje para el cliente
-
-Generar ademas el mensaje copy-paste para el cliente usando el template de RESPUESTA-CLIENTE.md.
-Las consideraciones en este mensaje deben ser SOLO las aptas para el cliente (sin tecnicismos internos).
-
-Si durante la conversacion surgen consultas sobre mascotas, pisos o dias/horarios, usar las respuestas predefinidas de la seccion "Consultas frecuentes" de RESPUESTA-CLIENTE.md, eligiendo siempre la version correcta:
-- Si es para enviarle al cliente → version "PARA EL CLIENTE"
-- Si es nota interna del vendedor → version "NOTA INTERNA VENDEDOR"
 
 ## Registro de casos no cubiertos
 

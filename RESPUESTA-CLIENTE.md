@@ -21,13 +21,13 @@ Paso 7 del flujo (SKILL.md): una vez calculada la cotizacion final, generar AMBO
 
 *Servicio:* Control de [plaga]
 *Ubicacion:* [localidad]
-*Superficie:* [rango m2]
 
 Precio del servicio: $[precio base]
-[Si hay insumos: Insumos: $[total insumos] ([detalle: N aerosoles, N cajas, etc.])]
-[Si hay recargo: Recargo horario ([franja]): $[recargo]]
+[Si hay insumos tipo aerosol, caja cebadero o trampa UV: Insumos: $[total insumos] ([detalle: N aerosoles, N cajas cebaderas, N trampas UV])]
 
 *Total: $[total]*
+
+[Si no se especificó horario: _Valor correspondiente a servicio de Lunes a Viernes de 9 a 16hs._]
 
 _Si necesitas Factura A o abonas por transferencia, el total es $[total con IVA] (IVA incluido)._
 
@@ -37,7 +37,9 @@ Te envio algunos detalles a tener en cuenta:
 - [detalle 2]
 ]
 
+[Si NO es roedores:
 De igual modo, una vez confirmes el servicio te enviamos el instructivo PDF con todas las indicaciones detalladas de que hacer previo y posterior al tratamiento.
+]
 
 Quedamos en contacto!
 ```
@@ -137,11 +139,6 @@ Te pedimos que nos confirmes el tipo de piso asi preparamos todo de la mejor man
 ```
 El servicio se coordina de lunes a sabado. Contanos que dias y horarios te quedan bien y te armamos la agenda.
 
-Si necesitas un horario despues de las 17hs, tiene un recargo sobre el total:
-- De 17 a 20hs: +20%
-- De 20 a 22hs: +35%
-- De 22 a 01hs: +50%
-
 Los domingos no tenemos servicio disponible.
 
 Decinos que franja te queda mejor y te confirmamos disponibilidad!
@@ -185,8 +182,16 @@ Te enviamos el instructivo PDF con todas las indicaciones detalladas una vez con
 1. NO incluir informacion tecnica interna (nombre de productos quimicos, maquinaria, codigos)
 2. NO mencionar piretroides, ULV, termofumigadora ni nombres de equipo
 3. NO incluir alertas de animales sensibles en el mensaje al cliente (eso es informacion interna del vendedor)
-4. SI mencionar el instructivo PDF siempre
-5. SI mencionar la nota de IVA siempre (en cotizaciones)
-6. Usar un tono amable, directo y profesional
-7. Los asteriscos (*) son formato bold de WhatsApp
-8. Los guiones bajos (_) son formato italica de WhatsApp
+4. NO incluir superficie/metros cuadrados en la cotizacion del cliente
+5. NO incluir recargos por horario como linea separada en la cotizacion del cliente (el recargo se suma al total internamente pero el cliente solo ve el precio final)
+6. NO mencionar equipamiento operativo ni equipo a utilizar al cliente (ni que requiere ni que no requiere)
+7. INSUMOS al cliente: solo avisar si hay aerosoles, cajas cebaderas o trampas UV. No mencionar otros insumos ni "equipamiento tecnico regular"
+8. SI mencionar el instructivo PDF siempre, EXCEPTO para roedores (roedores no tiene PDF instructivo)
+9. SI mencionar la nota de IVA siempre (en cotizaciones)
+10. Usar un tono amable, directo y profesional
+11. Los asteriscos (*) son formato bold de WhatsApp
+12. Los guiones bajos (_) son formato italica de WhatsApp
+
+## Nota sobre equipamiento especial (INTERNO - no comunicar al cliente)
+
+Los servicios que requieren termofumigadora o ULV electrica ya tienen el costo del equipo incluido en el valor superior del servicio. No se desglosa ni se menciona al cliente. Esta informacion es para el vendedor (que vaya aprendiendo los equipos que usa cada servicio).

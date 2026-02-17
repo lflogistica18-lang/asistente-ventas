@@ -147,6 +147,14 @@ Si el cliente pide horario fuera del habitual → informar el recargo ANTES de c
 - Si el cliente requiere **Factura A** o abona mediante **transferencia bancaria** → el importe final es el TOTAL + IVA (21%)
 - Esta información SIEMPRE debe indicarse en la cotización como nota al pie
 
+## Equipamiento especial (termofumigadora / ULV eléctrica)
+
+- Los servicios que requieren termofumigadora o ULV eléctrica ya tienen el costo del equipo **incluido en el precio superior** del servicio
+- NO se desglosa como línea separada en la cotización
+- NO se menciona al cliente → es información interna para el vendedor
+- Los datos de equipo en las fichas de plagas son para que el vendedor vaya aprendiendo qué equipo se usa en cada caso
+
 ## Post-servicio (siempre)
 
 - Adjuntar instructivo PDF correspondiente a la plaga SOLO después de que el cliente acepte el presupuesto
+- **EXCEPCIÓN: Roedores NO tiene PDF instructivo** → el técnico deja informe de recomendaciones directamente
